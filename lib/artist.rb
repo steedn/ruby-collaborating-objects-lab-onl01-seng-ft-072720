@@ -7,4 +7,8 @@ class Artist
   def initialize(artist)
     @name = artist
   end
+
+  def self.all 
+    @@all 
+  end
 end
