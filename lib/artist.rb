@@ -34,6 +34,7 @@ class Artist
 
   def find(y)
     self.all.find{|word| word.name == name}
+  end
 
 
 end
