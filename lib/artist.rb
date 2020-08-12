@@ -23,6 +23,8 @@ class Artist
   end
 
   def songs
+    if Song.artist = self
+      
   end
 
 
