@@ -24,7 +24,7 @@ class Artist
 
   def songs
     if Song.artist = self
-      
+
   end
 
 
