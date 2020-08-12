@@ -18,5 +18,5 @@ class Song
   def artist_name(name)
     self.artist = name
   end
-  binding.pry
+  # binding.pry
 end
