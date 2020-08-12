@@ -29,6 +29,7 @@ class Artist
   end
 
   def self.find_or_create_by_name(y)
+    self.find(y) ? self.find(y) : self.new(y)
   end
 
 
