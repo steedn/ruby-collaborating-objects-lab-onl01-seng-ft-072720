@@ -16,7 +16,5 @@ class Artist
   end
 
   def add_song(name)
-    # binding.pry
-    name.artist = artist
   end
 end
