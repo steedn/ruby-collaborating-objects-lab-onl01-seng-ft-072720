@@ -19,8 +19,9 @@ class Artist
   end
 
   def add_song(name)
-    name.artist = self
     binding.pry
+    name.artist = self
+    # binding.pry
   end
 
   def songs
