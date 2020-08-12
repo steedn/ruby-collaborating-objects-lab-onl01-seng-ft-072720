@@ -5,7 +5,6 @@ class Artist
   attr_accessor :name, :songs
 
   @@all = []
-  @songs = []
   def initialize(name)
     @name = name
     save
@@ -20,9 +19,7 @@ class Artist
   end
 
   def add_song(name)
-    name.name = self
-    @songs << name
-    binding.pry
+    name.artist = self
   end
 
 
